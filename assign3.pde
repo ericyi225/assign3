@@ -148,7 +148,7 @@ void draw() {
     }
   }
   //treasure
-  if(Fx<Tx+41 && Fx>=Tx-41 && Fy<=Ty+41 && Fy>=Ty-41){
+  if(Fx<Tx+41 && Fx>=Tx-41 && Fy<=Ty+41 && Fy>=Ty-45){
    Tx=floor(random(20,550));
    Ty=floor(random(30,460));
   }
